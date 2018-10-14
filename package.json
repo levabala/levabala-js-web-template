@@ -1,0 +1,41 @@
+{
+  "name": "screepsfun",
+  "version": "0.0.1",
+  "description": "Non-english screeps docs",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start-server": "live-server",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch",
+    "update-my-config": "npm install --dev-save eslint-config-levabala@latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levabala/screepsfun.git"
+  },
+  "author": "levabala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levabala/screepsfun/issues"
+  },
+  "homepage": "https://github.com/levabala/screepsfun#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-transform-flow-comments": "^7.0.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "autoprefixer": "^9.2.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "flow-bin": "^0.83.0",
+    "live-server": "^1.2.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
